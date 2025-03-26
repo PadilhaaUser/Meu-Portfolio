@@ -1,0 +1,91 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  height: 95vh;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 3em;
+}
+
+.subtitle {
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+
+.description {
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background-color: #f9f943;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #b0b001;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #f9f943;
+  border: 2px solid #f9f943;
+}
+
+.btn-secondary:hover {
+  background-color: #f9f943;
+  color: black;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f9f943;
+  transform: scale(1.1);
+}
