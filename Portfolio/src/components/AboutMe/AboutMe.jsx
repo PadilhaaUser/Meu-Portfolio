@@ -45,8 +45,8 @@ const AboutMe = () => {
         <div className="timeline-item">
           <FaBriefcase className="icon" />
           <div className="timeline-content">
-            <h3></h3>
-            <h4></h4>
+            <h3>Freelancer - Alphap Imóveis</h3>
+            <h4>Landing Page feita para a imobiliária Alphap Imóveis.</h4>
           </div>
         </div>
       </div>
