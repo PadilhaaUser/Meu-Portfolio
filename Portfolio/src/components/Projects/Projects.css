@@ -1,0 +1,80 @@
+.title {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  background-color: #0a0a0a;
+}
+
+.filter-container {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.no-results {
+  color: #fff;
+  text-align: center;
+  grid-column: 1 / -1;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.custom-select {
+  color: #fff !important;
+}
+
+.custom-selectcontrol {
+  background: #0a0a0a !important;
+  border: 1px solid #007bff !important;
+  border-radius: 8px !important;
+}
+
+.custom-selectmulti-value {
+  background: #007bff !important;
+  color: white !important;
+}
+
+.custom-selectmulti-valuelabel {
+  color: white !important;
+}
+
+.custom-selectmenu {
+  background: #3d3d3d !important;
+}
+
+.custom-selectoption {
+  background: #3d3d3d !important;
+  color: white !important;
+}
+
+.custom-selectoption--is-focused {
+  background: #007bff !important;
+}
+
+.custom-selectindicator-separator {
+  background: #007bff !important;
+}
+
+.custom-select__dropdown-indicator {
+  color: #007bff !important;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}

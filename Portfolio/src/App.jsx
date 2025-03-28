@@ -2,16 +2,34 @@ import "./App.css";
 import Intro from "./components/Intro/Intro";
 import AboutMe from "./components/AboutMe/AboutMe";
 import AnimatedSection from "./components/AnimatedSection/AnimatedSection";
+import Acquirements from "./components/Acquirements/Acquirements";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
+import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator";
 
 function App() {
   return (
     <>
+      <ScrollIndicator />
+
       <AnimatedSection>
         <Intro />
       </AnimatedSection>
-      <br />
+
       <AnimatedSection>
         <AboutMe />
+      </AnimatedSection>
+
+      <AnimatedSection>
+        <Acquirements />
+      </AnimatedSection>
+
+      <AnimatedSection>
+        <Projects />
+      </AnimatedSection>
+
+      <AnimatedSection>
+        <Contact />
       </AnimatedSection>
     </>
   );
