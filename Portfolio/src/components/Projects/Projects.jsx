@@ -4,12 +4,12 @@ import "./Projects.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 // img projects
-import CasaLuz from "../../assets/CasaLuz.webp";
-import Mademape from "../../assets/MademapeStore.webp";
-import GreenSocial from "../../assets/GreenSocial.webp";
-import AdivinheAPalavra from "../../assets/AdivinheAPalavra.webp";
+import AlphapImoveis from "../../assets/img/AlphapImoveis.webp";
+import NewFlix1 from "../../assets/img/NewFlix1.webp";
+import NewFlix2 from "../../assets/img/NewFlix2.webp";
+import JogoMemoria from "../../assets/img/JogoMemoria.webp";
+import projetoCRUD from "../../assets/img/CRUD.webp";
 import ListaDeTarefas from "../../assets/ListaDeTarefas.webp";
-import CineReview from "../../assets/CineReview.webp";
 import Accounts from "../../assets/accounts.webp";
 
 import {
@@ -21,6 +21,8 @@ import {
   FaNodeJs,
   FaDocker,
   FaGitAlt,
+  FaHtml5,
+  FaCss3Alt,
 } from "react-icons/fa";
 import {
   SiRedux,
@@ -38,61 +40,67 @@ const options = [
   { value: "C#", label: "C#" },
   { value: "Python", label: "Python" },
   { value: "JavaScript", label: "JavaScript" },
-  { value: "TypeScript", label: "TypeScript" },
+  { value: "C++", label: "C++" },
   { value: "React", label: "React" },
-  { value: "Redux", label: "Redux" },
+  { value: "HTML", label: "HTML" },
   { value: "Node.js", label: "Node.js" },
   { value: "MongoDB", label: "MongoDB" },
 ];
 
 const projectsData = [
   {
-    imgSrc: CasaLuz,
-    title: "Projeto freelancer CasaLuz",
+    imgSrc: AlphapImoveis,
+    title: "Projeto freelancer AlphapImoveis",
     technologies: [
       { logo: <SiJavascript />, name: "JavaScript" },
-      { logo: <FaReact />, name: "React" },
-      { logo: <SiRedux />, name: "Redux" },
-      { logo: <FaNodeJs />, name: "Node.js" },
-      { logo: <SiMongodb />, name: "MongoDB" },
+      { logo: <FaHtml5 />, name: "HTML" },
+      { logo: <FaCss3Alt />, name: "CSS" },
     ],
-    githubLink: "https://github.com/GuiLigeskee/CasaLuz",
-    siteLink: "https://www.casaluzimoveis.com",
+    githubLink: "https://github.com/PadilhaaUser/Alphap-imoveis_LandingPage",
+    siteLink: "https://alphapimoveis.netlify.app",
   },
   {
-    imgSrc: Mademape,
-    title: "Projeto freelancer Mademape",
+    imgSrc: NewFlix1,
+    title: "Projeto pessoal NewFlix v1",
     technologies: [
-      { logo: <SiJavascript />, name: "JavaScript" },
-      { logo: <FaReact />, name: "React" },
-      { logo: <SiRedux />, name: "Redux" },
-      { logo: <FaNodeJs />, name: "Node.js" },
-      { logo: <SiMongodb />, name: "MongoDB" },
+      { logo: <FaHtml5 />, name: "HTML" },
+      { logo: <FaCss3Alt />, name: "CSS" },
     ],
-    githubLink: "https://github.com/GuiLigeskee/MademapeStore",
+    githubLink: "https://github.com/PadilhaaUser/Projeto-Streaming-v1.0",
+    siteLink: "https://padilhaauser.github.io/Projeto-Streaming-v1.0/",
   },
   {
-    imgSrc: GreenSocial,
-    title: "Projeto pessoal GreenSocial",
+    imgSrc: NewFlix2,
+    title: "Projeto pessoal NewFlix v2",
     technologies: [
       { logo: <SiJavascript />, name: "JavaScript" },
-      { logo: <FaReact />, name: "React" },
-      { logo: <SiRedux />, name: "Redux" },
-      { logo: <FaNodeJs />, name: "Node.js" },
-      { logo: <SiMongodb />, name: "MongoDB" },
+      { logo: <FaHtml5 />, name: "HTML" },
+      { logo: <FaCss3Alt />, name: "CSS" },
     ],
-    githubLink: "https://github.com/GuiLigeskee/MademapeStore",
+    githubLink: "https://github.com/PadilhaaUser/Projeto-Streaming-v2.0",
+    siteLink: "https://padilhaauser.github.io/Projeto-Streaming-v2.0/",
   },
   {
-    imgSrc: CineReview,
-    title: "Projeto pessoal CineReview",
+    imgSrc: JogoMemoria,
+    title: "Projeto pessoal Jogo da Memoria",
     technologies: [
       { logo: <SiJavascript />, name: "JavaScript" },
-      { logo: <FaReact />, name: "React" },
+      { logo: <FaHtml5 />, name: "HTML" },
+      { logo: <FaCss3Alt />, name: "CSS" },
     ],
-    githubLink: "https://github.com/GuiLigeskee/Lista-de-tarefas",
-    siteLink:
-      "https://cinereview-guiligeskee-guiligeskees-projects.vercel.app/?_vercel_share=uFJrgDCVAsopRO1E20S1WKirpWFfiacu",
+    githubLink: "https://github.com/PadilhaaUser/JogoDaMemoria-HtmlCssJS",
+    siteLink: "https://padilhaauser.github.io/JogoDaMemoria-HtmlCssJS/",
+  },
+  {
+    imgSrc: projetoCRUD,
+    title: "Projeto pessoal CRUD",
+    technologies: [
+      { logo: <SiJavascript />, name: "JavaScript" },
+      { logo: <FaHtml5 />, name: "HTML" },
+      { logo: <FaCss3Alt />, name: "CSS" },
+    ],
+    githubLink: "https://github.com/PadilhaaUser/CRUD",
+    siteLink: "https://padilhaauser.github.io/CRUD/",
   },
   {
     imgSrc: ListaDeTarefas,
@@ -105,16 +113,7 @@ const projectsData = [
     siteLink:
       "https://lista-de-tarefas-l0femi5hw-guiligeskees-projects.vercel.app",
   },
-  {
-    imgSrc: AdivinheAPalavra,
-    title: "Projeto pessoal Adivinhe a palavra",
-    technologies: [
-      { logo: <SiJavascript />, name: "JavaScript" },
-      { logo: <FaReact />, name: "React" },
-    ],
-    githubLink: "https://github.com/GuiLigeskee/Adivinhe-a-palavra",
-    siteLink: "https://GuiLigeskee.github.io/adivinhe-a-palavra",
-  },
+
   {
     imgSrc: Accounts,
     title: "Projeto pessoal Accounts",
@@ -157,43 +156,43 @@ const Projects = () => {
               ...provided,
               borderRadius: "15px",
               padding: ".5em",
-              backgroundColor: "#0a0a0a",
-              boxShadow: state.isFocused ? "0 0 0 1px #4a90e2" : "none",
+              backgroundColor: "#000000",
+              boxShadow: state.isFocused ? "0 0 0 1px #ffe4c4" : "none",
               "&:hover": {
-                borderColor: "#4a90e2",
+                borderColor: "#f9f943",
               },
             }),
             menu: (provided) => ({
               ...provided,
-              backgroundColor: "#0a0a0a",
+              backgroundColor: "#000000",
             }),
             option: (provided, state) => ({
               ...provided,
-              backgroundColor: state.isFocused ? "#4a90e2" : "#3d3d3d",
-              color: state.isFocused ? "#fff" : "#fff",
+              backgroundColor: state.isFocused ? "#695236" : "#887660",
+              color: state.isFocused ? "#f9f943" : "#f9f943",
               "&:active": {
                 backgroundColor: "#357abd",
               },
             }),
             multiValue: (provided) => ({
               ...provided,
-              backgroundColor: "#4a90e2",
+              backgroundColor: "#ffe4c4",
             }),
             multiValueLabel: (provided) => ({
               ...provided,
-              color: "#fff",
+              color: "#887660",
             }),
             multiValueRemove: (provided) => ({
               ...provided,
-              color: "#fff",
+              color: "#887660",
               "&:hover": {
-                backgroundColor: "#357abd",
-                color: "#fff",
+                backgroundColor: "#f9f943",
+                color: "#887660",
               },
             }),
             input: (provided) => ({
               ...provided,
-              color: "#fff",
+              color: "#ffe4c4",
             }),
             singleValue: (provided) => ({
               ...provided,
@@ -201,7 +200,7 @@ const Projects = () => {
             }),
             placeholder: (provided) => ({
               ...provided,
-              color: "#b0b0b0",
+              color: "#ffe4c4",
             }),
           }}
         />

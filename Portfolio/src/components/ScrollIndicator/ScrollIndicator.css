@@ -9,7 +9,7 @@
 
 .scroll-icon {
   font-size: 2rem;
-  color: #4a90e2;
+  color: #f9f943;
   animation: bounce 2s infinite;
 }
 @keyframes bounce {

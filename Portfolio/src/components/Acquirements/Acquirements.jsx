@@ -7,6 +7,9 @@ import {
   FaReact,
   FaNodeJs,
   FaDocker,
+  FaFileWord,
+  FaFilePowerpoint,
+  FaFileExcel,
 } from "react-icons/fa";
 import {
   SiRedux,
@@ -17,8 +20,13 @@ import {
   SiDotnet,
   SiGithub,
   SiPython,
+  SiAdobephotoshop,
+  SiCanva,
+  SiWireshark,
 } from "react-icons/si";
+import { TbBrandOffice } from "react-icons/tb";
 import { BsGit } from "react-icons/bs";
+import { MdDesignServices } from "react-icons/md";
 
 const skills = [
   {
@@ -26,7 +34,7 @@ const skills = [
     icon: <FaCode />,
     technologies: [
       { name: "JavaScript", icon: <SiJavascript /> },
-      { name: "TypeScript", icon: <SiTypescript /> },
+      { name: "C++", icon: <i class="devicon-cplusplus-plain"></i> },
       { name: "C#", icon: <i class="devicon-csharp-plain"></i> },
       { name: "Python", icon: <SiPython /> },
     ],
@@ -36,9 +44,9 @@ const skills = [
     icon: <FaReact />,
     technologies: [
       { name: "React", icon: <FaReact /> },
-      { name: "Redux", icon: <SiRedux /> },
       { name: "HTML", icon: <i class="devicon-html5-plain"></i> },
       { name: "CSS", icon: <i class="devicon-css3-plain"></i> },
+      { name: "Bootstrap", icon: <i class="devicon-bootstrap-plain"></i> },
     ],
   },
   {
@@ -48,7 +56,7 @@ const skills = [
       { name: ".NET", icon: <SiDotnet /> },
       { name: "Django", icon: <i class="devicon-django-plain"></i> },
       { name: "Node.js", icon: <FaNodeJs /> },
-      { name: "Express", icon: <i class="devicon-express-original"></i> },
+      { name: "php", icon: <i class="devicon-php-plain"></i> },
     ],
   },
   {
@@ -75,7 +83,25 @@ const skills = [
     technologies: [
       { name: "Git", icon: <BsGit /> },
       { name: "GitHub", icon: <SiGithub /> },
+      { name: "Wireshark", icon: <SiWireshark /> },
+    ],
+  },
+  {
+    category: "Microsoft Office",
+    icon: <TbBrandOffice />,
+    technologies: [
+      { name: "Word", icon: <FaFileWord /> },
+      { name: "Powerpoint", icon: <FaFilePowerpoint /> },
+      { name: "Excel", icon: <FaFileExcel /> },
+    ],
+  },
+  {
+    category: "Design",
+    icon: <MdDesignServices />,
+    technologies: [
       { name: "Figma", icon: <i class="devicon-figma-plain"></i> },
+      { name: "Photoshop", icon: <SiAdobephotoshop /> },
+      { name: "Canva", icon: <SiCanva /> },
     ],
   },
 ];

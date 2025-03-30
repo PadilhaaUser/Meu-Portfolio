@@ -23,11 +23,17 @@ function App() {
       <AnimatedSection>
         <Acquirements />
       </AnimatedSection>
-
+      <br />
+      <br />
+      <br />
+      <br />
       <AnimatedSection>
         <Projects />
       </AnimatedSection>
-
+      <br />
+      <br />
+      <br />
+      <br />
       <AnimatedSection>
         <Contact />
       </AnimatedSection>

@@ -2,7 +2,7 @@
   text-align: center;
   margin: 2rem 0;
   font-size: 2.5rem;
-  background-color: #0a0a0a;
+  background-color: #000000;
 }
 
 .filter-container {
@@ -34,12 +34,12 @@
 
 .custom-selectcontrol {
   background: #0a0a0a !important;
-  border: 1px solid #007bff !important;
+  border: 1px solid #f9f943 !important;
   border-radius: 8px !important;
 }
 
 .custom-selectmulti-value {
-  background: #007bff !important;
+  background: #f9f943 !important;
   color: white !important;
 }
 
@@ -57,15 +57,15 @@
 }
 
 .custom-selectoption--is-focused {
-  background: #007bff !important;
+  background: #f9f943 !important;
 }
 
 .custom-selectindicator-separator {
-  background: #007bff !important;
+  background: #f9f943 !important;
 }
 
 .custom-select__dropdown-indicator {
-  color: #007bff !important;
+  color: #f9f943 !important;
 }
 
 @media (max-width: 768px) {
