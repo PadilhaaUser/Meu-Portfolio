@@ -9,8 +9,8 @@ import NewFlix1 from "../../assets/img/NewFlix1.webp";
 import NewFlix2 from "../../assets/img/NewFlix2.webp";
 import JogoMemoria from "../../assets/img/JogoMemoria.webp";
 import projetoCRUD from "../../assets/img/CRUD.webp";
-import ListaDeTarefas from "../../assets/ListaDeTarefas.webp";
-import Accounts from "../../assets/accounts.webp";
+import SnakeGame from "../../assets/img/SnakeGame.webp";
+import Calculador from "../../assets/img/Calculador.webp";
 
 import {
   FaCode,
@@ -33,8 +33,10 @@ import {
   SiDotnet,
   SiGithub,
   SiPython,
+  SiCplusplus,
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const options = [
   { value: "C#", label: "C#" },
@@ -103,25 +105,21 @@ const projectsData = [
     siteLink: "https://padilhaauser.github.io/CRUD/",
   },
   {
-    imgSrc: ListaDeTarefas,
-    title: "Projeto pessoal Lista de tarefas",
-    technologies: [
-      { logo: <SiTypescript />, name: "TypeScript" },
-      { logo: <FaReact />, name: "React" },
-    ],
-    githubLink: "https://github.com/GuiLigeskee/Lista-de-tarefas",
-    siteLink:
-      "https://lista-de-tarefas-l0femi5hw-guiligeskees-projects.vercel.app",
+    imgSrc: SnakeGame,
+    title: "Projeto pessoal do Jogo da Cobrinha",
+    technologies: [{ logo: <SiCplusplus />, name: "C++" }],
+    githubLink: "https://github.com/PadilhaaUser/jogo-cobrinha",
   },
 
   {
-    imgSrc: Accounts,
-    title: "Projeto pessoal Accounts",
+    imgSrc: Calculador,
+    title: "Projeto pessoal de um calculador de dígitos verificadores",
     technologies: [
-      { logo: <SiJavascript />, name: "JavaScript" },
-      { logo: <FaNodeJs />, name: "Node.js" },
+      { logo: <SiPython />, name: "Python" },
+      { logo: <TbBrandCSharp />, name: "C#" },
     ],
-    githubLink: "https://github.com/GuiLigeskee/Accounts-CLI",
+    githubLink:
+      "https://github.com/PadilhaaUser/Projeto-de-Programacao-Orientada-a-Objetos",
   },
 ];
 

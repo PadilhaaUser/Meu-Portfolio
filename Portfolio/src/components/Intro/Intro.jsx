@@ -2,6 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 import "./Intro.css";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import cv from "../../assets/cv-paulo-padilha.pdf";
+import certificados from "../../assets/Certificados.pdf";
 
 const Intro = () => {
   return (
@@ -31,6 +32,9 @@ const Intro = () => {
           </a>
           <a href={cv} download className="btn-secondary">
             <FaDownload /> Baixar CV
+          </a>
+          <a href={certificados} download className="btn-secondary">
+            <FaDownload /> Certificados
           </a>
         </div>
         <div className="social-icons">
