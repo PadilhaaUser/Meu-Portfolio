@@ -19,6 +19,14 @@ const AboutMe = () => {
       <div className="timeline">
         <h2>Minha Jornada</h2>
         <div className="timeline-item">
+          <FaBriefcase className="icon" />
+          <div className="timeline-content">
+            <h3>Freelancer - Alphap Imóveis</h3>
+            <h4>Landing Page feita para a imobiliária Alphap Imóveis.</h4>
+          </div>
+        </div>
+
+        <div className="timeline-item">
           <FaGraduationCap className="icon" />
           <div className="timeline-content">
             <h3>Engenharia de Software</h3>
@@ -39,14 +47,6 @@ const AboutMe = () => {
           <div className="timeline-content">
             <h3>Ensino Médio</h3>
             <h4>Curso e Colégio Acesso (2017 - 2019)</h4>
-          </div>
-        </div>
-
-        <div className="timeline-item">
-          <FaBriefcase className="icon" />
-          <div className="timeline-content">
-            <h3>Freelancer - Alphap Imóveis</h3>
-            <h4>Landing Page feita para a imobiliária Alphap Imóveis.</h4>
           </div>
         </div>
       </div>
