@@ -11,6 +11,7 @@ import JogoMemoria from "../../assets/img/JogoMemoria.webp";
 import projetoCRUD from "../../assets/img/CRUD.webp";
 import SnakeGame from "../../assets/img/SnakeGame.webp";
 import Calculador from "../../assets/img/Calculador.webp";
+import UserHUB from "../../assets/img/UserHUB.webp";
 
 import {
   FaCode,
@@ -121,6 +122,19 @@ const projectsData = [
     githubLink:
       "https://github.com/PadilhaaUser/Projeto-de-Programacao-Orientada-a-Objetos",
   },
+
+  {
+    imgSrc: UserHUB,
+    title: "Prova Técnica - requisição de API Rest",
+    technologies: [
+      { logo: <FaReact />, name: "React" },
+      { logo: <SiJavascript />, name: "JavaScript" },
+      { logo: <FaHtml5 />, name: "HTML" },
+      { logo: <FaCss3Alt />, name: "CSS" },
+    ],
+    githubLink: "https://github.com/PadilhaaUser/ProvaTecnica-UserHUB",
+    siteLink: "https://padilhaauser.github.io/ProvaTecnica-UserHUB/",
+  },
 ];
 
 const Projects = () => {
@@ -138,7 +152,7 @@ const Projects = () => {
 
   return (
     <>
-      <h1 className="title">Principais projetos</h1>
+      <h1 className="title">Meus projetos</h1>
 
       {/* Filtro */}
       <div className="filter-container">
