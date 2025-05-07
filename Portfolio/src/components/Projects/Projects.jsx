@@ -13,6 +13,7 @@ import SnakeGame from "../../assets/img/SnakeGame.webp";
 import Calculador from "../../assets/img/Calculador.webp";
 import UserHUB from "../../assets/img/UserHUB.webp";
 import Calculadora from "../../assets/img/Calculadora.webp";
+import cartaoPagamento from "../../assets/img/cartaoPagamento.webp";
 
 import {
   FaCode,
@@ -54,7 +55,7 @@ const options = [
 const projectsData = [
   {
     imgSrc: AlphapImoveis,
-    title: "Projeto freelancer AlphapImoveis",
+    title: "Projeto freelancer - AlphapImoveis Landing Page",
     technologies: [
       { logo: <SiJavascript />, name: "JavaScript" },
       { logo: <FaHtml5 />, name: "HTML" },
@@ -65,7 +66,7 @@ const projectsData = [
   },
   {
     imgSrc: NewFlix1,
-    title: "Projeto pessoal NewFlix v1",
+    title: "Projeto pessoal - NewFlix v1",
     technologies: [
       { logo: <FaHtml5 />, name: "HTML" },
       { logo: <FaCss3Alt />, name: "CSS" },
@@ -75,7 +76,7 @@ const projectsData = [
   },
   {
     imgSrc: NewFlix2,
-    title: "Projeto pessoal NewFlix v2",
+    title: "Projeto pessoal - NewFlix v2",
     technologies: [
       { logo: <SiJavascript />, name: "JavaScript" },
       { logo: <FaHtml5 />, name: "HTML" },
@@ -86,7 +87,7 @@ const projectsData = [
   },
   {
     imgSrc: JogoMemoria,
-    title: "Projeto pessoal Jogo da Memoria",
+    title: "Projeto pessoal - Jogo da Memoria",
     technologies: [
       { logo: <SiJavascript />, name: "JavaScript" },
       { logo: <FaHtml5 />, name: "HTML" },
@@ -97,7 +98,7 @@ const projectsData = [
   },
   {
     imgSrc: projetoCRUD,
-    title: "Projeto pessoal CRUD",
+    title: "Projeto pessoal - CRUD",
     technologies: [
       { logo: <SiJavascript />, name: "JavaScript" },
       { logo: <FaHtml5 />, name: "HTML" },
@@ -108,14 +109,14 @@ const projectsData = [
   },
   {
     imgSrc: SnakeGame,
-    title: "Projeto pessoal do Jogo da Cobrinha",
+    title: "Projeto pessoal - Jogo da Cobrinha",
     technologies: [{ logo: <SiCplusplus />, name: "C++" }],
     githubLink: "https://github.com/PadilhaaUser/jogo-cobrinha",
   },
 
   {
     imgSrc: Calculador,
-    title: "Projeto pessoal de um calculador de dígitos verificadores",
+    title: "Projeto pessoal - calculador de dígitos verificadores",
     technologies: [
       { logo: <SiPython />, name: "Python" },
       { logo: <TbBrandCSharp />, name: "C#" },
@@ -139,7 +140,7 @@ const projectsData = [
 
   {
     imgSrc: Calculadora,
-    title: "Projeto pessoal de uma calculadora futurista",
+    title: "Projeto pessoal - calculadora futurista",
     technologies: [
       { logo: <SiJavascript />, name: "JavaScript" },
       { logo: <FaHtml5 />, name: "HTML" },
@@ -147,6 +148,18 @@ const projectsData = [
     ],
     githubLink: "https://github.com/PadilhaaUser/calculadora-htmlCssJs",
     siteLink: "https://padilhaauser.github.io/calculadora-htmlCssJs/",
+  },
+
+  {
+    imgSrc: cartaoPagamento,
+    title: "Projeto pessoal - formulário de cartão de pagamento 3D",
+    technologies: [
+      { logo: <SiJavascript />, name: "JavaScript" },
+      { logo: <FaHtml5 />, name: "HTML" },
+      { logo: <FaCss3Alt />, name: "CSS" },
+    ],
+    githubLink: "https://github.com/PadilhaaUser/formulario-cartao-credito",
+    siteLink: "https://padilhaauser.github.io/formulario-cartao-credito/",
   },
 ];
 
