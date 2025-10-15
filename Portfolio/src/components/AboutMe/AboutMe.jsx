@@ -8,11 +8,11 @@ const AboutMe = () => {
       <p className="text">
         Olá, meu nome é <span>Paulo Henrique Padilha</span>, sou um{" "}
         <span>desenvolvedor fullstack em formação</span> de <span>23 anos</span>
-        . Atualmente, estou no 7º período de{" "}
+        . Atualmente, estou no 8º período de{" "}
         <span>Engenharia de Software </span>
         na UniBrasil e possuo experiência em diversas tecnologias, incluindo
-        Python, C#, C, JavaScript, React Native, .NET Core, SQL, MongoDB, entre
-        outros, desenvolvendo soluções eficientes tanto no front-end quanto no
+        Python, JavaScript, Node.js, React.js, React-Native, .NET Core, SQL, MongoDB, entre
+        outros. Desenvolvendo soluções eficientes tanto no front-end quanto no
         back-end.
       </p>
 
